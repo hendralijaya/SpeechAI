@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2EC3109B2C22711E00598812 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109A2C22711E00598812 /* Speech.swift */; };
 		2EC3109E2C2299B700598812 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109D2C2299B700598812 /* APIKey.swift */; };
-		2EC310A02C2299CC00598812 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */; };
 		2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A12C2299F900598812 /* EmoResultView.swift */; };
 		2EC310A52C229A6F00598812 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC310A42C229A6F00598812 /* GoogleGenerativeAI */; };
 		2EC310A72C24146300598812 /* affectingMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A62C24146300598812 /* affectingMoodView.swift */; };
@@ -43,7 +42,6 @@
 		2EC3109A2C22711E00598812 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		2EC3109C2C2271FB00598812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2EC3109D2C2299B700598812 /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
-		2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		2EC310A12C2299F900598812 /* EmoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoResultView.swift; sourceTree = "<group>"; };
 		2EC310A62C24146300598812 /* affectingMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affectingMoodView.swift; sourceTree = "<group>"; };
 		2EC310A92C256AE800598812 /* MeditationS1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationS1View.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		2ECAECC62C1AE3EE0049BC6C /* SpeechAI */ = {
 			isa = PBXGroup;
 			children = (
-				2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */,
 				2EC3109C2C2271FB00598812 /* Info.plist */,
 				2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */,
 				2EC3109D2C2299B700598812 /* APIKey.swift */,
@@ -245,7 +242,6 @@
 				2EC310B62C27BA6A00598812 /* Marah.json in Resources */,
 				2ECAECCC2C1AE3F00049BC6C /* Assets.xcassets in Resources */,
 				2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */,
-				2EC310A02C2299CC00598812 /* GenerativeAI-Info.plist in Resources */,
 				2EC310B52C27BA6A00598812 /* cemas.json in Resources */,
 				2EC310B02C27A8F900598812 /* nangis.json in Resources */,
 			);
