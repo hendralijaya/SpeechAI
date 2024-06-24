@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EC3109B2C22711E00598812 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109A2C22711E00598812 /* Speech.swift */; };
+		2EC3109E2C2299B700598812 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109D2C2299B700598812 /* APIKey.swift */; };
+		2EC310A02C2299CC00598812 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */; };
+		2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A12C2299F900598812 /* EmoResultView.swift */; };
+		2EC310A52C229A6F00598812 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC310A42C229A6F00598812 /* GoogleGenerativeAI */; };
+		2EC310A72C24146300598812 /* affectingMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A62C24146300598812 /* affectingMoodView.swift */; };
+		2EC310AA2C256AE800598812 /* MeditationS1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A92C256AE800598812 /* MeditationS1View.swift */; };
+		2EC310AD2C27A7A500598812 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC310AC2C27A7A500598812 /* DotLottie */; };
+		2EC310B02C27A8F900598812 /* nangis.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310AF2C27A8F900598812 /* nangis.json */; };
+		2EC310B22C27A94700598812 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310B12C27A94700598812 /* LottieView.swift */; };
+		2EC310B52C27BA6A00598812 /* cemas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B32C27BA6A00598812 /* cemas.json */; };
+		2EC310B62C27BA6A00598812 /* Marah.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B42C27BA6A00598812 /* Marah.json */; };
+		2EC310B82C27CCAD00598812 /* Marah-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B72C27CCAD00598812 /* Marah-2.json */; };
+		2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B92C27CFEB00598812 /* nangis-2.json */; };
+		2EC310BC2C27CFEB00598812 /* cemas-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310BA2C27CFEB00598812 /* cemas-2.json */; };
+		2EC310BF2C27DD5100598812 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310BE2C27DD5100598812 /* CameraView.swift */; };
+		2ECAECC82C1AE3EE0049BC6C /* SpeechAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */; };
+		2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */; };
+		2ECAECCC2C1AE3F00049BC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECAECCB2C1AE3F00049BC6C /* Assets.xcassets */; };
+		2ECAECCF2C1AE3F00049BC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECAECCE2C1AE3F00049BC6C /* Preview Assets.xcassets */; };
+		2EE2EB652C284B2500446295 /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB642C284B2500446295 /* SharingView.swift */; };
+		2EE2EB672C284DEA00446295 /* JournalingQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB662C284DEA00446295 /* JournalingQuestView.swift */; };
+		2EE2EB692C29076800446295 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB682C29076800446295 /* LoadingView.swift */; };
+		2EE2EB6B2C2907DE00446295 /* loadingScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6A2C2907DE00446295 /* loadingScreen.json */; };
+		2EE2EB6D2C291EAD00446295 /* loading_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6C2C291EAD00446295 /* loading_screen.json */; };
+		2EE2EB6F2C29204600446295 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6E2C29204600446295 /* ShopView.swift */; };
+		2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB702C29462800446295 /* ChallangeS1View.swift */; };
+		2EE2EB732C2946C600446295 /* 5objects.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB722C2946C600446295 /* 5objects.json */; };
+		2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB752C29470A00446295 /* ChallangeS2View.swift */; };
+		2EE2EB782C29472F00446295 /* touch.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB772C29472F00446295 /* touch.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EC3109A2C22711E00598812 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		2EC3109C2C2271FB00598812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2EC3109D2C2299B700598812 /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		2EC310A12C2299F900598812 /* EmoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoResultView.swift; sourceTree = "<group>"; };
+		2EC310A62C24146300598812 /* affectingMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affectingMoodView.swift; sourceTree = "<group>"; };
+		2EC310A92C256AE800598812 /* MeditationS1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationS1View.swift; sourceTree = "<group>"; };
+		2EC310AF2C27A8F900598812 /* nangis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nangis.json; sourceTree = "<group>"; };
+		2EC310B12C27A94700598812 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		2EC310B32C27BA6A00598812 /* cemas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cemas.json; sourceTree = "<group>"; };
+		2EC310B42C27BA6A00598812 /* Marah.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Marah.json; sourceTree = "<group>"; };
+		2EC310B72C27CCAD00598812 /* Marah-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Marah-2.json"; sourceTree = "<group>"; };
+		2EC310B92C27CFEB00598812 /* nangis-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nangis-2.json"; sourceTree = "<group>"; };
+		2EC310BA2C27CFEB00598812 /* cemas-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cemas-2.json"; sourceTree = "<group>"; };
+		2EC310BE2C27DD5100598812 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2ECAECC42C1AE3EE0049BC6C /* SpeechAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAIApp.swift; sourceTree = "<group>"; };
+		2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ECAECCB2C1AE3F00049BC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ECAECCE2C1AE3F00049BC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EE2EB642C284B2500446295 /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		2EE2EB662C284DEA00446295 /* JournalingQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingQuestView.swift; sourceTree = "<group>"; };
+		2EE2EB682C29076800446295 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2EE2EB6A2C2907DE00446295 /* loadingScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingScreen.json; sourceTree = "<group>"; };
+		2EE2EB6C2C291EAD00446295 /* loading_screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_screen.json; sourceTree = "<group>"; };
+		2EE2EB6E2C29204600446295 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		2EE2EB702C29462800446295 /* ChallangeS1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS1View.swift; sourceTree = "<group>"; };
+		2EE2EB722C2946C600446295 /* 5objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5objects.json; sourceTree = "<group>"; };
+		2EE2EB752C29470A00446295 /* ChallangeS2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS2View.swift; sourceTree = "<group>"; };
+		2EE2EB772C29472F00446295 /* touch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = touch.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECAECC12C1AE3EE0049BC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC310A52C229A6F00598812 /* GoogleGenerativeAI in Frameworks */,
+				2EC310AD2C27A7A500598812 /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC310A82C256AC600598812 /* Anxiety */ = {
+			isa = PBXGroup;
+			children = (
+				2EC310A92C256AE800598812 /* MeditationS1View.swift */,
+				2EE2EB752C29470A00446295 /* ChallangeS2View.swift */,
+				2EE2EB702C29462800446295 /* ChallangeS1View.swift */,
+			);
+			path = Anxiety;
+			sourceTree = "<group>";
+		};
+		2EC310AE2C27A8E300598812 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2EB6A2C2907DE00446295 /* loadingScreen.json */,
+				2EC310B72C27CCAD00598812 /* Marah-2.json */,
+				2EE2EB772C29472F00446295 /* touch.json */,
+				2EC310B32C27BA6A00598812 /* cemas.json */,
+				2EE2EB722C2946C600446295 /* 5objects.json */,
+				2EE2EB6C2C291EAD00446295 /* loading_screen.json */,
+				2EC310B42C27BA6A00598812 /* Marah.json */,
+				2EC310BA2C27CFEB00598812 /* cemas-2.json */,
+				2EC310B92C27CFEB00598812 /* nangis-2.json */,
+				2EC310AF2C27A8F900598812 /* nangis.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2EC310BD2C27DD4300598812 /* Angry */ = {
+			isa = PBXGroup;
+			children = (
+				2EC310BE2C27DD5100598812 /* CameraView.swift */,
+				2EE2EB642C284B2500446295 /* SharingView.swift */,
+				2EE2EB662C284DEA00446295 /* JournalingQuestView.swift */,
+			);
+			path = Angry;
+			sourceTree = "<group>";
+		};
+		2ECAECBB2C1AE3EE0049BC6C = {
+			isa = PBXGroup;
+			children = (
+				2ECAECC62C1AE3EE0049BC6C /* SpeechAI */,
+				2ECAECC52C1AE3EE0049BC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECAECC52C1AE3EE0049BC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAECC42C1AE3EE0049BC6C /* SpeechAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECAECC62C1AE3EE0049BC6C /* SpeechAI */ = {
+			isa = PBXGroup;
+			children = (
+				2EC3109F2C2299CC00598812 /* GenerativeAI-Info.plist */,
+				2EC3109C2C2271FB00598812 /* Info.plist */,
+				2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */,
+				2EC3109D2C2299B700598812 /* APIKey.swift */,
+				2EC310A12C2299F900598812 /* EmoResultView.swift */,
+				2EE2EB682C29076800446295 /* LoadingView.swift */,
+				2EE2EB6E2C29204600446295 /* ShopView.swift */,
+				2EC310B12C27A94700598812 /* LottieView.swift */,
+				2EC310BD2C27DD4300598812 /* Angry */,
+				2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */,
+				2EC310A62C24146300598812 /* affectingMoodView.swift */,
+				2EC310AE2C27A8E300598812 /* Assets */,
+				2EC310A82C256AC600598812 /* Anxiety */,
+				2EC3109A2C22711E00598812 /* Speech.swift */,
+				2ECAECCB2C1AE3F00049BC6C /* Assets.xcassets */,
+				2ECAECCD2C1AE3F00049BC6C /* Preview Content */,
+			);
+			path = SpeechAI;
+			sourceTree = "<group>";
+		};
+		2ECAECCD2C1AE3F00049BC6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAECCE2C1AE3F00049BC6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECAECC32C1AE3EE0049BC6C /* SpeechAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECAECD22C1AE3F00049BC6C /* Build configuration list for PBXNativeTarget "SpeechAI" */;
+			buildPhases = (
+				2ECAECC02C1AE3EE0049BC6C /* Sources */,
+				2ECAECC12C1AE3EE0049BC6C /* Frameworks */,
+				2ECAECC22C1AE3EE0049BC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechAI;
+			packageProductDependencies = (
+				2EC310A42C229A6F00598812 /* GoogleGenerativeAI */,
+				2EC310AC2C27A7A500598812 /* DotLottie */,
+			);
+			productName = SpeechAI;
+			productReference = 2ECAECC42C1AE3EE0049BC6C /* SpeechAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECAECBC2C1AE3EE0049BC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2ECAECC32C1AE3EE0049BC6C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2ECAECBF2C1AE3EE0049BC6C /* Build configuration list for PBXProject "SpeechAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ECAECBB2C1AE3EE0049BC6C;
+			packageReferences = (
+				2EC310A32C229A6F00598812 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				2EC310AB2C27A7A500598812 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
+			productRefGroup = 2ECAECC52C1AE3EE0049BC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECAECC32C1AE3EE0049BC6C /* SpeechAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECAECC22C1AE3EE0049BC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC310BC2C27CFEB00598812 /* cemas-2.json in Resources */,
+				2EC310B82C27CCAD00598812 /* Marah-2.json in Resources */,
+				2EE2EB6D2C291EAD00446295 /* loading_screen.json in Resources */,
+				2EE2EB6B2C2907DE00446295 /* loadingScreen.json in Resources */,
+				2EE2EB732C2946C600446295 /* 5objects.json in Resources */,
+				2EE2EB782C29472F00446295 /* touch.json in Resources */,
+				2ECAECCF2C1AE3F00049BC6C /* Preview Assets.xcassets in Resources */,
+				2EC310B62C27BA6A00598812 /* Marah.json in Resources */,
+				2ECAECCC2C1AE3F00049BC6C /* Assets.xcassets in Resources */,
+				2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */,
+				2EC310A02C2299CC00598812 /* GenerativeAI-Info.plist in Resources */,
+				2EC310B52C27BA6A00598812 /* cemas.json in Resources */,
+				2EC310B02C27A8F900598812 /* nangis.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECAECC02C1AE3EE0049BC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC3109B2C22711E00598812 /* Speech.swift in Sources */,
+				2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */,
+				2EC310A72C24146300598812 /* affectingMoodView.swift in Sources */,
+				2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */,
+				2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */,
+				2EE2EB652C284B2500446295 /* SharingView.swift in Sources */,
+				2EE2EB672C284DEA00446295 /* JournalingQuestView.swift in Sources */,
+				2EE2EB692C29076800446295 /* LoadingView.swift in Sources */,
+				2EC310BF2C27DD5100598812 /* CameraView.swift in Sources */,
+				2EC3109E2C2299B700598812 /* APIKey.swift in Sources */,
+				2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */,
+				2EE2EB6F2C29204600446295 /* ShopView.swift in Sources */,
+				2EC310AA2C256AE800598812 /* MeditationS1View.swift in Sources */,
+				2ECAECC82C1AE3EE0049BC6C /* SpeechAIApp.swift in Sources */,
+				2EC310B22C27A94700598812 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2ECAECD02C1AE3F00049BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ECAECD12C1AE3F00049BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECAECD32C1AE3F00049BC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechAI/Preview Content\"";
+				DEVELOPMENT_TEAM = C59QF2W8P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CalDev.SpeechAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ECAECD42C1AE3F00049BC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechAI/Preview Content\"";
+				DEVELOPMENT_TEAM = C59QF2W8P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CalDev.SpeechAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECAECBF2C1AE3EE0049BC6C /* Build configuration list for PBXProject "SpeechAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECAECD02C1AE3F00049BC6C /* Debug */,
+				2ECAECD12C1AE3F00049BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECAECD22C1AE3F00049BC6C /* Build configuration list for PBXNativeTarget "SpeechAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECAECD32C1AE3F00049BC6C /* Debug */,
+				2ECAECD42C1AE3F00049BC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EC310A32C229A6F00598812 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+		2EC310AB2C27A7A500598812 /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EC310A42C229A6F00598812 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EC310A32C229A6F00598812 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		2EC310AC2C27A7A500598812 /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EC310AB2C27A7A500598812 /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2ECAECBC2C1AE3EE0049BC6C /* Project object */;
+}
