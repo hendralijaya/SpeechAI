@@ -15,10 +15,7 @@ struct SpeechAIApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            NavigationStack{
-                ContentView()
-
-            }
+            ContentView()
         }
     }
     func requestSpeechAuthorization() {

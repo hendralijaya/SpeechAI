@@ -51,7 +51,7 @@ struct EmoResultView: View {
     let model = GenerativeModel(name: "gemini-pro", apiKey: APIKey.default)
 
     var body: some View {
-        NavigationStack{
+        VStack{
         if !emotion.isEmpty{
             VStack{
                 Text("You are feeling..")
@@ -97,7 +97,7 @@ struct EmoResultView: View {
                 .padding()
                 Spacer()
                 VStack {
-                    NavigationLink(destination: ContentView()){
+                    NavigationLink(destination: MeditationS1View()){
                         Text("Next")
                             .fontWeight(.semibold)
                             .frame(maxWidth: .infinity)
@@ -122,6 +122,10 @@ struct EmoResultView: View {
                 }
                 .padding()
             }
+            .onAppear{
+                playSound(name: "breathing", extensionFile: "mp3")
+            }
+            .padding(.top, 40)
         } else {
             LoadingView()
                 .onAppear{
@@ -129,6 +133,7 @@ struct EmoResultView: View {
                 }
         }
     }
+        .navigationBarBackButtonHidden(true)
 }
     
     private func analyze(){

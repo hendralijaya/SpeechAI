@@ -36,7 +36,27 @@
 		2EE2EB732C2946C600446295 /* 5objects.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB722C2946C600446295 /* 5objects.json */; };
 		2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB752C29470A00446295 /* ChallangeS2View.swift */; };
 		2EE2EB782C29472F00446295 /* touch.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB772C29472F00446295 /* touch.json */; };
+		2EE2EB7A2C295CD600446295 /* meditasi.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB792C295CD600446295 /* meditasi.json */; };
+		2EE2EB7C2C295D8000446295 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB7B2C295D8000446295 /* GenerativeAI-Info.plist */; };
+		2EE2EB802C2A613600446295 /* MeditationS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB7F2C2A613600446295 /* MeditationS2.swift */; };
+		2EE2EB832C2A617F00446295 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB822C2A617F00446295 /* Components.swift */; };
+		2EE2EB852C2A61BF00446295 /* MeditationS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB842C2A61BF00446295 /* MeditationS3.swift */; };
+		2EE2EB942C2A874300446295 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB932C2A874300446295 /* Audio.swift */; };
+		2EE2EB962C2A87FF00446295 /* breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB952C2A87FF00446295 /* breathing.mp3 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EE2EB902C2A756600446295 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2EC3109A2C22711E00598812 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
@@ -68,6 +88,13 @@
 		2EE2EB722C2946C600446295 /* 5objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5objects.json; sourceTree = "<group>"; };
 		2EE2EB752C29470A00446295 /* ChallangeS2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS2View.swift; sourceTree = "<group>"; };
 		2EE2EB772C29472F00446295 /* touch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = touch.json; sourceTree = "<group>"; };
+		2EE2EB792C295CD600446295 /* meditasi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meditasi.json; sourceTree = "<group>"; };
+		2EE2EB7B2C295D8000446295 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		2EE2EB7F2C2A613600446295 /* MeditationS2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationS2.swift; sourceTree = "<group>"; };
+		2EE2EB822C2A617F00446295 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		2EE2EB842C2A61BF00446295 /* MeditationS3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationS3.swift; sourceTree = "<group>"; };
+		2EE2EB932C2A874300446295 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		2EE2EB952C2A87FF00446295 /* breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +113,8 @@
 		2EC310A82C256AC600598812 /* Anxiety */ = {
 			isa = PBXGroup;
 			children = (
-				2EC310A92C256AE800598812 /* MeditationS1View.swift */,
-				2EE2EB752C29470A00446295 /* ChallangeS2View.swift */,
-				2EE2EB702C29462800446295 /* ChallangeS1View.swift */,
+				2EE2EB7E2C2A611500446295 /* Challange */,
+				2EE2EB7D2C2A610D00446295 /* Meditations */,
 			);
 			path = Anxiety;
 			sourceTree = "<group>";
@@ -98,6 +124,7 @@
 			children = (
 				2EE2EB6A2C2907DE00446295 /* loadingScreen.json */,
 				2EC310B72C27CCAD00598812 /* Marah-2.json */,
+				2EE2EB792C295CD600446295 /* meditasi.json */,
 				2EE2EB772C29472F00446295 /* touch.json */,
 				2EC310B32C27BA6A00598812 /* cemas.json */,
 				2EE2EB722C2946C600446295 /* 5objects.json */,
@@ -140,11 +167,14 @@
 			isa = PBXGroup;
 			children = (
 				2EC3109C2C2271FB00598812 /* Info.plist */,
+				2EE2EB7B2C295D8000446295 /* GenerativeAI-Info.plist */,
 				2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */,
 				2EC3109D2C2299B700598812 /* APIKey.swift */,
+				2EE2EB932C2A874300446295 /* Audio.swift */,
 				2EC310A12C2299F900598812 /* EmoResultView.swift */,
 				2EE2EB682C29076800446295 /* LoadingView.swift */,
 				2EE2EB6E2C29204600446295 /* ShopView.swift */,
+				2EE2EB952C2A87FF00446295 /* breathing.mp3 */,
 				2EC310B12C27A94700598812 /* LottieView.swift */,
 				2EC310BD2C27DD4300598812 /* Angry */,
 				2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */,
@@ -166,6 +196,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2EE2EB7D2C2A610D00446295 /* Meditations */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2EB812C2A616900446295 /* Components */,
+				2EC310A92C256AE800598812 /* MeditationS1View.swift */,
+				2EE2EB7F2C2A613600446295 /* MeditationS2.swift */,
+				2EE2EB842C2A61BF00446295 /* MeditationS3.swift */,
+			);
+			path = Meditations;
+			sourceTree = "<group>";
+		};
+		2EE2EB7E2C2A611500446295 /* Challange */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2EB752C29470A00446295 /* ChallangeS2View.swift */,
+				2EE2EB702C29462800446295 /* ChallangeS1View.swift */,
+			);
+			path = Challange;
+			sourceTree = "<group>";
+		};
+		2EE2EB812C2A616900446295 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2EB822C2A617F00446295 /* Components.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +234,7 @@
 				2ECAECC02C1AE3EE0049BC6C /* Sources */,
 				2ECAECC12C1AE3EE0049BC6C /* Frameworks */,
 				2ECAECC22C1AE3EE0049BC6C /* Resources */,
+				2EE2EB902C2A756600446295 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +276,7 @@
 			packageReferences = (
 				2EC310A32C229A6F00598812 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
 				2EC310AB2C27A7A500598812 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+				2EE2EB882C2A72A100446295 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = 2ECAECC52C1AE3EE0049BC6C /* Products */;
 			projectDirPath = "";
@@ -234,8 +294,11 @@
 			files = (
 				2EC310BC2C27CFEB00598812 /* cemas-2.json in Resources */,
 				2EC310B82C27CCAD00598812 /* Marah-2.json in Resources */,
+				2EE2EB7C2C295D8000446295 /* GenerativeAI-Info.plist in Resources */,
+				2EE2EB7A2C295CD600446295 /* meditasi.json in Resources */,
 				2EE2EB6D2C291EAD00446295 /* loading_screen.json in Resources */,
 				2EE2EB6B2C2907DE00446295 /* loadingScreen.json in Resources */,
+				2EE2EB962C2A87FF00446295 /* breathing.mp3 in Resources */,
 				2EE2EB732C2946C600446295 /* 5objects.json in Resources */,
 				2EE2EB782C29472F00446295 /* touch.json in Resources */,
 				2ECAECCF2C1AE3F00049BC6C /* Preview Assets.xcassets in Resources */,
@@ -254,9 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE2EB802C2A613600446295 /* MeditationS2.swift in Sources */,
 				2EC3109B2C22711E00598812 /* Speech.swift in Sources */,
 				2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */,
 				2EC310A72C24146300598812 /* affectingMoodView.swift in Sources */,
+				2EE2EB942C2A874300446295 /* Audio.swift in Sources */,
 				2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */,
 				2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */,
 				2EE2EB652C284B2500446295 /* SharingView.swift in Sources */,
@@ -266,9 +331,11 @@
 				2EC3109E2C2299B700598812 /* APIKey.swift in Sources */,
 				2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */,
 				2EE2EB6F2C29204600446295 /* ShopView.swift in Sources */,
+				2EE2EB852C2A61BF00446295 /* MeditationS3.swift in Sources */,
 				2EC310AA2C256AE800598812 /* MeditationS1View.swift in Sources */,
 				2ECAECC82C1AE3EE0049BC6C /* SpeechAIApp.swift in Sources */,
 				2EC310B22C27A94700598812 /* LottieView.swift in Sources */,
+				2EE2EB832C2A617F00446295 /* Components.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +559,14 @@
 			requirement = {
 				branch = main;
 				kind = branch;
+			};
+		};
+		2EE2EB882C2A72A100446295 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
