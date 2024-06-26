@@ -8,7 +8,7 @@
 import SwiftUI
 import Speech
 
-struct SharingView: View {
+struct JournalingQuestView: View {
     @ObservedObject var speechRecognizer = SpeechRecognizer()
     @State private var jurnal: String = ""
     @State private var isRecord: Bool = false
@@ -18,26 +18,36 @@ struct SharingView: View {
         NavigationStack {
             VStack {
                 VStack{
-                    Text("MEDITATION")
+                    Text("JOURNALLING")
                         .bold()
                         .multilineTextAlignment(.center)
                         .font(.title)
-                    Text("tell me all the things that make you sad")
+                        .padding(.bottom, 10)
+                    Text("Tell me 3 good things that happen today, \n reflecting on your day will allow you to notice all the smaller moments that were actually quite special.")
                         .multilineTextAlignment(.center)
                         .fontWeight(.medium)
                         .font(.caption)
                         .foregroundColor(.gray)
-                        .padding(.bottom, 20)
-                    TextEditor(text: $jurnal)
-                        .foregroundColor(.gray)
-                        .frame(height: 405)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.black, lineWidth: 2)
-                        )
+                        .padding(.bottom, 10)
+                    
+                    ZStack(alignment: .topLeading) {
+                        TextEditor(text: $jurnal)
+                            .frame(height: 336)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(Color.gray, lineWidth: 2)
+                            )
+
+                        if jurnal.isEmpty {
+                            Text("Start writing...")
+                                .foregroundColor(.gray)
+                                .padding(.horizontal, 14)
+                                .padding(.vertical, 18)
+                        }
+                    }
                 }
                 .padding()
-                .padding(.top, 50)
+                .padding(.top, 10)
                 if !isRecord {
                     VStack {
                         Button(action: {
@@ -77,7 +87,7 @@ struct SharingView: View {
                     Text("Done")
                         .fontWeight(.semibold)
                         .frame(width: 183,height: 63)
-                        .background(Color.biruBTNBefore)
+                        .background(Color.biruTuaSlider)
                         .foregroundColor(.white)
                         .cornerRadius(8)
                 }
@@ -115,5 +125,5 @@ struct SharingView: View {
 }
 
 #Preview {
-    SharingView()
+    JournalingQuestView()
 }

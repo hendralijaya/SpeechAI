@@ -63,15 +63,6 @@ struct ContentView: View {
                                 )
                         }
                     }
-    //                Button(action:{showResultSheet.toggle()}){
-    //                    Text("Next")
-    //                        .fontWeight(.semibold)
-    //                        .frame(maxWidth: .infinity)
-    //                        .frame(height: 50)
-    //                        .background(Color.abu)
-    //                        .foregroundColor(.biru)
-    //                        .cornerRadius(8)
-    //                }
                     Spacer()
                     VStack {
                         NavigationLink(destination: EmoResultView(jurnal: jurnal)){
@@ -101,14 +92,11 @@ struct ContentView: View {
                 .padding()
                 .onAppear {
                     requestSpeechAuthorization()
-                    playSound(name: "breathing", extensionFile: "mp3")
+//                    playSound(name: "breathing", extensionFile: "mp3")
                 }
                 .onReceive(speechRecognizer.$transcript) { newTranscript in
                     self.jurnal = newTranscript
                 }
-    //            .sheet(isPresented: $showResultSheet) {
-    //                EmoResultView(jurnal: jurnal)
-    //            }
             }
         }
         .navigationBarBackButtonHidden(true)

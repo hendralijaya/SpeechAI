@@ -122,9 +122,9 @@ struct EmoResultView: View {
                 }
                 .padding()
             }
-            .onAppear{
-                playSound(name: "breathing", extensionFile: "mp3")
-            }
+//            .onAppear{
+//                playSound(name: "breathing", extensionFile: "mp3")
+//            }
             .padding(.top, 40)
         } else {
             LoadingView()

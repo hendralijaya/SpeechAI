@@ -1,14 +1,14 @@
 //
-//  ChallangeS2View.swift
+//  ChallangeS5.swift
 //  SpeechAI
 //
-//  Created by Heical Chandra on 24/06/24.
+//  Created by Heical Chandra on 25/06/24.
 //
 
 import SwiftUI
 import DotLottie
 
-struct ChallangeS2View: View {
+struct ChallangeS5: View {
     var body: some View {
         VStack{
             VStack{
@@ -21,18 +21,18 @@ struct ChallangeS2View: View {
                     .fontWeight(.medium)
                     .foregroundColor(.gray)
                     .font(.caption)
-                Text("STEP 2")
+                Text("STEP 5")
                     .bold()
                     .multilineTextAlignment(.center)
                     .font(.title3)
                     .padding()
                 DotLottieAnimation(
-                    fileName: "touch",
+                    fileName: "rasa",
                     config: AnimationConfig(autoplay: true, loop: true)
                 )
                 .view()
                 .frame(width: 300, height: 300)
-                Text("Name 4 objects that you \n can touch.")
+                Text("Identify 1 taste on your \n tongue.")
                     .multilineTextAlignment(.center)
                     .padding()
                     .font(.title3)
@@ -40,12 +40,12 @@ struct ChallangeS2View: View {
             .padding(.top, 60)
             Spacer()
             VStack {
-                NavigationLink(destination: ChallangeS3()){
-                    Text("OK, continue")
+                NavigationLink(destination: JournalS1()){
+                    Text("Done")
                         .fontWeight(.semibold)
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(Color.biruBTNBefore)
+                        .background(Color.biruTuaSlider)
                         .foregroundColor(.white)
                         .cornerRadius(8)
                 }
@@ -55,19 +55,19 @@ struct ChallangeS2View: View {
                         .frame(width: 35,height: 5)
                         .cornerRadius(25)
                     Rectangle()
+                        .fill(Color.abu)
+                        .frame(width: 35,height: 5)
+                        .cornerRadius(25)
+                    Rectangle()
+                        .fill(Color.abu)
+                        .frame(width: 35,height: 5)
+                        .cornerRadius(25)
+                    Rectangle()
+                        .fill(Color.abu)
+                        .frame(width: 35,height: 5)
+                        .cornerRadius(25)
+                    Rectangle()
                         .fill(Color.biruTuaSlider)
-                        .frame(width: 35,height: 5)
-                        .cornerRadius(25)
-                    Rectangle()
-                        .fill(Color.abu)
-                        .frame(width: 35,height: 5)
-                        .cornerRadius(25)
-                    Rectangle()
-                        .fill(Color.abu)
-                        .frame(width: 35,height: 5)
-                        .cornerRadius(25)
-                    Rectangle()
-                        .fill(Color.abu)
                         .frame(width: 35,height: 5)
                         .cornerRadius(25)
                 }
@@ -79,5 +79,5 @@ struct ChallangeS2View: View {
 }
 
 #Preview {
-    ChallangeS2View()
+    ChallangeS5()
 }

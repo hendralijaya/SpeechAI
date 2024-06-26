@@ -52,7 +52,7 @@ struct MeditationS3: View {
                     }
                     if progress == 20 {
                         VStack{
-                            NavigationLink(destination: ContentView()){
+                            NavigationLink(destination: ChallangeS1View()){
                                 Text("Done")
                                     .fontWeight(.semibold)
                                     .frame(maxWidth: .infinity)
@@ -63,15 +63,15 @@ struct MeditationS3: View {
                                 }
                             HStack{
                                 Rectangle()
+                                    .fill(Color.abu)
+                                    .frame(width: 35,height: 5)
+                                    .cornerRadius(25)
+                                Rectangle()
+                                    .fill(Color.abu)
+                                    .frame(width: 35,height: 5)
+                                    .cornerRadius(25)
+                                Rectangle()
                                     .fill(Color.biruTuaSlider)
-                                    .frame(width: 35,height: 5)
-                                    .cornerRadius(25)
-                                Rectangle()
-                                    .fill(Color.abu)
-                                    .frame(width: 35,height: 5)
-                                    .cornerRadius(25)
-                                Rectangle()
-                                    .fill(Color.abu)
                                     .frame(width: 35,height: 5)
                                     .cornerRadius(25)
                             }
@@ -82,6 +82,7 @@ struct MeditationS3: View {
             }
             .onAppear {
                 startTimer()
+                playSound(name: "breathing", extensionFile: "mp3")
             }
             .navigationBarBackButtonHidden(true)
         }
@@ -95,13 +96,15 @@ struct MeditationS3: View {
                 progress += 1.0
             } else {
                 timer?.invalidate()
+                stopSound()
             }
         }
+//        if progress == 30 {
+//            
+//        }
     }
     func getBreathText(for progress: Double) -> String {
-//        if progress == 30 {
-//            stopSound()
-//        }
+
         if (progress <= 5) || (progress > 10 && progress <= 15) || (progress > 20 && progress <= 25) {
             return "Breath in"
         } else if (progress > 5 && progress <= 10) || (progress > 15 && progress <= 20) || (progress > 25 && progress <= 30) {

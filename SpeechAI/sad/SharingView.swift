@@ -8,7 +8,7 @@
 import SwiftUI
 import Speech
 
-struct JournalingQuestView: View {
+struct SharingView: View {
     @ObservedObject var speechRecognizer = SpeechRecognizer()
     @State private var jurnal: String = ""
     @State private var isRecord: Bool = false
@@ -18,25 +18,23 @@ struct JournalingQuestView: View {
         NavigationStack {
             VStack {
                 VStack{
-                    Text("JOURNALLING")
+                    Text("SHARE")
                         .bold()
                         .multilineTextAlignment(.center)
                         .font(.title)
-                        .padding(.bottom, 10)
-                    Text("Tell me 3 good things that happen today, \n reflecting on your day will allow you to notice all the smaller moments that were actually quite special.")
+                    Text("tell me all the things that make you sad")
                         .multilineTextAlignment(.center)
                         .fontWeight(.medium)
                         .font(.caption)
                         .foregroundColor(.gray)
-                        .padding(.bottom, 10)
-                    
+                        .padding(.bottom, 20)
                     ZStack(alignment: .topLeading) {
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(Color.red)
                         TextEditor(text: $jurnal)
-                            .foregroundColor(Color.clear)
-                            .background(.red)
-                            .frame(height: 336)
+                            .frame(height: 405)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(Color.gray, lineWidth: 2)
+                            )
 
                         if jurnal.isEmpty {
                             Text("Start writing...")
@@ -44,11 +42,10 @@ struct JournalingQuestView: View {
                                 .padding(.horizontal, 14)
                                 .padding(.vertical, 18)
                         }
-
                     }
                 }
                 .padding()
-                .padding(.top, 10)
+                .padding(.top, 50)
                 if !isRecord {
                     VStack {
                         Button(action: {
@@ -126,5 +123,5 @@ struct JournalingQuestView: View {
 }
 
 #Preview {
-    JournalingQuestView()
+    SharingView()
 }

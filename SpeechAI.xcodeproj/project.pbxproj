@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5BAA682C2ADD360076961C /* JournalS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA672C2ADD360076961C /* JournalS1.swift */; };
+		2E5BAA6A2C2BA1F20076961C /* JournalS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA692C2BA1F20076961C /* JournalS2.swift */; };
+		2E5BAA6C2C2BA1FA0076961C /* JournalS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA6B2C2BA1FA0076961C /* JournalS3.swift */; };
+		2E5BAA6E2C2BA2030076961C /* JournalS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA6D2C2BA2030076961C /* JournalS4.swift */; };
+		2E5BAA702C2BA20A0076961C /* JournalS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA6F2C2BA20A0076961C /* JournalS5.swift */; };
+		2E5BAA722C2BA2150076961C /* JournalS6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA712C2BA2150076961C /* JournalS6.swift */; };
+		2E5BAA742C2BA21D0076961C /* JournalS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA732C2BA21D0076961C /* JournalS7.swift */; };
+		2E5BAA762C2BA2270076961C /* JournalS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA752C2BA2270076961C /* JournalS8.swift */; };
+		2E5BAA782C2BA2CB0076961C /* TemplateJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA772C2BA2CB0076961C /* TemplateJournal.swift */; };
+		2E9670B62C2ACECD00CF05EA /* ChallangeS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9670B52C2ACECD00CF05EA /* ChallangeS3.swift */; };
+		2E9670B82C2ACF7C00CF05EA /* suara.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9670B72C2ACF7C00CF05EA /* suara.json */; };
+		2E9670BA2C2ACFB300CF05EA /* ChallangeS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9670B92C2ACFB300CF05EA /* ChallangeS4.swift */; };
+		2E9670BD2C2ACFEA00CF05EA /* bau.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9670BB2C2ACFE900CF05EA /* bau.json */; };
+		2E9670BE2C2ACFEA00CF05EA /* rasa.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9670BC2C2ACFEA00CF05EA /* rasa.json */; };
+		2E9670C02C2AD03300CF05EA /* ChallangeS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9670BF2C2AD03300CF05EA /* ChallangeS5.swift */; };
 		2EC3109B2C22711E00598812 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109A2C22711E00598812 /* Speech.swift */; };
 		2EC3109E2C2299B700598812 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3109D2C2299B700598812 /* APIKey.swift */; };
 		2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A12C2299F900598812 /* EmoResultView.swift */; };
@@ -15,13 +30,11 @@
 		2EC310AA2C256AE800598812 /* MeditationS1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310A92C256AE800598812 /* MeditationS1View.swift */; };
 		2EC310AD2C27A7A500598812 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC310AC2C27A7A500598812 /* DotLottie */; };
 		2EC310B02C27A8F900598812 /* nangis.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310AF2C27A8F900598812 /* nangis.json */; };
-		2EC310B22C27A94700598812 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310B12C27A94700598812 /* LottieView.swift */; };
 		2EC310B52C27BA6A00598812 /* cemas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B32C27BA6A00598812 /* cemas.json */; };
 		2EC310B62C27BA6A00598812 /* Marah.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B42C27BA6A00598812 /* Marah.json */; };
 		2EC310B82C27CCAD00598812 /* Marah-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B72C27CCAD00598812 /* Marah-2.json */; };
 		2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310B92C27CFEB00598812 /* nangis-2.json */; };
 		2EC310BC2C27CFEB00598812 /* cemas-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC310BA2C27CFEB00598812 /* cemas-2.json */; };
-		2EC310BF2C27DD5100598812 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC310BE2C27DD5100598812 /* CameraView.swift */; };
 		2ECAECC82C1AE3EE0049BC6C /* SpeechAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */; };
 		2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */; };
 		2ECAECCC2C1AE3F00049BC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECAECCB2C1AE3F00049BC6C /* Assets.xcassets */; };
@@ -31,7 +44,6 @@
 		2EE2EB692C29076800446295 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB682C29076800446295 /* LoadingView.swift */; };
 		2EE2EB6B2C2907DE00446295 /* loadingScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6A2C2907DE00446295 /* loadingScreen.json */; };
 		2EE2EB6D2C291EAD00446295 /* loading_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6C2C291EAD00446295 /* loading_screen.json */; };
-		2EE2EB6F2C29204600446295 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB6E2C29204600446295 /* ShopView.swift */; };
 		2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB702C29462800446295 /* ChallangeS1View.swift */; };
 		2EE2EB732C2946C600446295 /* 5objects.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2EB722C2946C600446295 /* 5objects.json */; };
 		2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2EB752C29470A00446295 /* ChallangeS2View.swift */; };
@@ -59,6 +71,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E5BAA672C2ADD360076961C /* JournalS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS1.swift; sourceTree = "<group>"; };
+		2E5BAA692C2BA1F20076961C /* JournalS2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS2.swift; sourceTree = "<group>"; };
+		2E5BAA6B2C2BA1FA0076961C /* JournalS3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS3.swift; sourceTree = "<group>"; };
+		2E5BAA6D2C2BA2030076961C /* JournalS4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS4.swift; sourceTree = "<group>"; };
+		2E5BAA6F2C2BA20A0076961C /* JournalS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS5.swift; sourceTree = "<group>"; };
+		2E5BAA712C2BA2150076961C /* JournalS6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS6.swift; sourceTree = "<group>"; };
+		2E5BAA732C2BA21D0076961C /* JournalS7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS7.swift; sourceTree = "<group>"; };
+		2E5BAA752C2BA2270076961C /* JournalS8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS8.swift; sourceTree = "<group>"; };
+		2E5BAA772C2BA2CB0076961C /* TemplateJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateJournal.swift; sourceTree = "<group>"; };
+		2E9670B52C2ACECD00CF05EA /* ChallangeS3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS3.swift; sourceTree = "<group>"; };
+		2E9670B72C2ACF7C00CF05EA /* suara.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suara.json; sourceTree = "<group>"; };
+		2E9670B92C2ACFB300CF05EA /* ChallangeS4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS4.swift; sourceTree = "<group>"; };
+		2E9670BB2C2ACFE900CF05EA /* bau.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bau.json; sourceTree = "<group>"; };
+		2E9670BC2C2ACFEA00CF05EA /* rasa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rasa.json; sourceTree = "<group>"; };
+		2E9670BF2C2AD03300CF05EA /* ChallangeS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS5.swift; sourceTree = "<group>"; };
 		2EC3109A2C22711E00598812 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		2EC3109C2C2271FB00598812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2EC3109D2C2299B700598812 /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
@@ -66,13 +93,11 @@
 		2EC310A62C24146300598812 /* affectingMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affectingMoodView.swift; sourceTree = "<group>"; };
 		2EC310A92C256AE800598812 /* MeditationS1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationS1View.swift; sourceTree = "<group>"; };
 		2EC310AF2C27A8F900598812 /* nangis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nangis.json; sourceTree = "<group>"; };
-		2EC310B12C27A94700598812 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		2EC310B32C27BA6A00598812 /* cemas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cemas.json; sourceTree = "<group>"; };
 		2EC310B42C27BA6A00598812 /* Marah.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Marah.json; sourceTree = "<group>"; };
 		2EC310B72C27CCAD00598812 /* Marah-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Marah-2.json"; sourceTree = "<group>"; };
 		2EC310B92C27CFEB00598812 /* nangis-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nangis-2.json"; sourceTree = "<group>"; };
 		2EC310BA2C27CFEB00598812 /* cemas-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cemas-2.json"; sourceTree = "<group>"; };
-		2EC310BE2C27DD5100598812 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		2ECAECC42C1AE3EE0049BC6C /* SpeechAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECAECC72C1AE3EE0049BC6C /* SpeechAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAIApp.swift; sourceTree = "<group>"; };
 		2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,7 +108,6 @@
 		2EE2EB682C29076800446295 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2EE2EB6A2C2907DE00446295 /* loadingScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingScreen.json; sourceTree = "<group>"; };
 		2EE2EB6C2C291EAD00446295 /* loading_screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_screen.json; sourceTree = "<group>"; };
-		2EE2EB6E2C29204600446295 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		2EE2EB702C29462800446295 /* ChallangeS1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS1View.swift; sourceTree = "<group>"; };
 		2EE2EB722C2946C600446295 /* 5objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5objects.json; sourceTree = "<group>"; };
 		2EE2EB752C29470A00446295 /* ChallangeS2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS2View.swift; sourceTree = "<group>"; };
@@ -110,9 +134,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5BAA662C2ADD1F0076961C /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				2E5BAA672C2ADD360076961C /* JournalS1.swift */,
+				2E5BAA692C2BA1F20076961C /* JournalS2.swift */,
+				2E5BAA6B2C2BA1FA0076961C /* JournalS3.swift */,
+				2E5BAA6D2C2BA2030076961C /* JournalS4.swift */,
+				2E5BAA6F2C2BA20A0076961C /* JournalS5.swift */,
+				2E5BAA712C2BA2150076961C /* JournalS6.swift */,
+				2E5BAA732C2BA21D0076961C /* JournalS7.swift */,
+				2E5BAA752C2BA2270076961C /* JournalS8.swift */,
+				2E5BAA772C2BA2CB0076961C /* TemplateJournal.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		2E9670C12C2ADB7700CF05EA /* sad */ = {
+			isa = PBXGroup;
+			children = (
+				2EE2EB642C284B2500446295 /* SharingView.swift */,
+				2EE2EB662C284DEA00446295 /* JournalingQuestView.swift */,
+			);
+			path = sad;
+			sourceTree = "<group>";
+		};
 		2EC310A82C256AC600598812 /* Anxiety */ = {
 			isa = PBXGroup;
 			children = (
+				2E5BAA662C2ADD1F0076961C /* Journal */,
 				2EE2EB7E2C2A611500446295 /* Challange */,
 				2EE2EB7D2C2A610D00446295 /* Meditations */,
 			);
@@ -122,6 +172,9 @@
 		2EC310AE2C27A8E300598812 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2E9670BB2C2ACFE900CF05EA /* bau.json */,
+				2E9670BC2C2ACFEA00CF05EA /* rasa.json */,
+				2E9670B72C2ACF7C00CF05EA /* suara.json */,
 				2EE2EB6A2C2907DE00446295 /* loadingScreen.json */,
 				2EC310B72C27CCAD00598812 /* Marah-2.json */,
 				2EE2EB792C295CD600446295 /* meditasi.json */,
@@ -135,16 +188,6 @@
 				2EC310AF2C27A8F900598812 /* nangis.json */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		2EC310BD2C27DD4300598812 /* Angry */ = {
-			isa = PBXGroup;
-			children = (
-				2EC310BE2C27DD5100598812 /* CameraView.swift */,
-				2EE2EB642C284B2500446295 /* SharingView.swift */,
-				2EE2EB662C284DEA00446295 /* JournalingQuestView.swift */,
-			);
-			path = Angry;
 			sourceTree = "<group>";
 		};
 		2ECAECBB2C1AE3EE0049BC6C = {
@@ -173,10 +216,8 @@
 				2EE2EB932C2A874300446295 /* Audio.swift */,
 				2EC310A12C2299F900598812 /* EmoResultView.swift */,
 				2EE2EB682C29076800446295 /* LoadingView.swift */,
-				2EE2EB6E2C29204600446295 /* ShopView.swift */,
+				2E9670C12C2ADB7700CF05EA /* sad */,
 				2EE2EB952C2A87FF00446295 /* breathing.mp3 */,
-				2EC310B12C27A94700598812 /* LottieView.swift */,
-				2EC310BD2C27DD4300598812 /* Angry */,
 				2ECAECC92C1AE3EE0049BC6C /* ContentView.swift */,
 				2EC310A62C24146300598812 /* affectingMoodView.swift */,
 				2EC310AE2C27A8E300598812 /* Assets */,
@@ -211,7 +252,10 @@
 			isa = PBXGroup;
 			children = (
 				2EE2EB752C29470A00446295 /* ChallangeS2View.swift */,
+				2E9670BF2C2AD03300CF05EA /* ChallangeS5.swift */,
 				2EE2EB702C29462800446295 /* ChallangeS1View.swift */,
+				2E9670B52C2ACECD00CF05EA /* ChallangeS3.swift */,
+				2E9670B92C2ACFB300CF05EA /* ChallangeS4.swift */,
 			);
 			path = Challange;
 			sourceTree = "<group>";
@@ -302,11 +346,14 @@
 				2EE2EB732C2946C600446295 /* 5objects.json in Resources */,
 				2EE2EB782C29472F00446295 /* touch.json in Resources */,
 				2ECAECCF2C1AE3F00049BC6C /* Preview Assets.xcassets in Resources */,
+				2E9670BE2C2ACFEA00CF05EA /* rasa.json in Resources */,
 				2EC310B62C27BA6A00598812 /* Marah.json in Resources */,
 				2ECAECCC2C1AE3F00049BC6C /* Assets.xcassets in Resources */,
 				2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */,
 				2EC310B52C27BA6A00598812 /* cemas.json in Resources */,
+				2E9670B82C2ACF7C00CF05EA /* suara.json in Resources */,
 				2EC310B02C27A8F900598812 /* nangis.json in Resources */,
+				2E9670BD2C2ACFEA00CF05EA /* bau.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,21 +367,30 @@
 				2EE2EB802C2A613600446295 /* MeditationS2.swift in Sources */,
 				2EC3109B2C22711E00598812 /* Speech.swift in Sources */,
 				2EE2EB762C29470A00446295 /* ChallangeS2View.swift in Sources */,
+				2E5BAA762C2BA2270076961C /* JournalS8.swift in Sources */,
 				2EC310A72C24146300598812 /* affectingMoodView.swift in Sources */,
 				2EE2EB942C2A874300446295 /* Audio.swift in Sources */,
+				2E5BAA702C2BA20A0076961C /* JournalS5.swift in Sources */,
+				2E5BAA782C2BA2CB0076961C /* TemplateJournal.swift in Sources */,
+				2E5BAA6C2C2BA1FA0076961C /* JournalS3.swift in Sources */,
 				2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */,
 				2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */,
 				2EE2EB652C284B2500446295 /* SharingView.swift in Sources */,
 				2EE2EB672C284DEA00446295 /* JournalingQuestView.swift in Sources */,
+				2E5BAA682C2ADD360076961C /* JournalS1.swift in Sources */,
 				2EE2EB692C29076800446295 /* LoadingView.swift in Sources */,
-				2EC310BF2C27DD5100598812 /* CameraView.swift in Sources */,
+				2E5BAA742C2BA21D0076961C /* JournalS7.swift in Sources */,
+				2E9670C02C2AD03300CF05EA /* ChallangeS5.swift in Sources */,
+				2E9670BA2C2ACFB300CF05EA /* ChallangeS4.swift in Sources */,
+				2E5BAA6E2C2BA2030076961C /* JournalS4.swift in Sources */,
+				2E5BAA722C2BA2150076961C /* JournalS6.swift in Sources */,
 				2EC3109E2C2299B700598812 /* APIKey.swift in Sources */,
 				2EC310A22C2299F900598812 /* EmoResultView.swift in Sources */,
-				2EE2EB6F2C29204600446295 /* ShopView.swift in Sources */,
+				2E5BAA6A2C2BA1F20076961C /* JournalS2.swift in Sources */,
 				2EE2EB852C2A61BF00446295 /* MeditationS3.swift in Sources */,
 				2EC310AA2C256AE800598812 /* MeditationS1View.swift in Sources */,
 				2ECAECC82C1AE3EE0049BC6C /* SpeechAIApp.swift in Sources */,
-				2EC310B22C27A94700598812 /* LottieView.swift in Sources */,
+				2E9670B62C2ACECD00CF05EA /* ChallangeS3.swift in Sources */,
 				2EE2EB832C2A617F00446295 /* Components.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
