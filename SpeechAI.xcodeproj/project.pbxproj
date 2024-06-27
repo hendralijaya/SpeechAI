@@ -16,6 +16,8 @@
 		2E5BAA742C2BA21D0076961C /* JournalS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA732C2BA21D0076961C /* JournalS7.swift */; };
 		2E5BAA762C2BA2270076961C /* JournalS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA752C2BA2270076961C /* JournalS8.swift */; };
 		2E5BAA782C2BA2CB0076961C /* TemplateJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA772C2BA2CB0076961C /* TemplateJournal.swift */; };
+		2E5BAA7A2C2D0EC70076961C /* CongratsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BAA792C2D0EC70076961C /* CongratsView.swift */; };
+		2E5BAA7C2C2D0F3C0076961C /* congratulations.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E5BAA7B2C2D0F3C0076961C /* congratulations.json */; };
 		2E9670B62C2ACECD00CF05EA /* ChallangeS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9670B52C2ACECD00CF05EA /* ChallangeS3.swift */; };
 		2E9670B82C2ACF7C00CF05EA /* suara.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9670B72C2ACF7C00CF05EA /* suara.json */; };
 		2E9670BA2C2ACFB300CF05EA /* ChallangeS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9670B92C2ACFB300CF05EA /* ChallangeS4.swift */; };
@@ -80,6 +82,8 @@
 		2E5BAA732C2BA21D0076961C /* JournalS7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS7.swift; sourceTree = "<group>"; };
 		2E5BAA752C2BA2270076961C /* JournalS8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalS8.swift; sourceTree = "<group>"; };
 		2E5BAA772C2BA2CB0076961C /* TemplateJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateJournal.swift; sourceTree = "<group>"; };
+		2E5BAA792C2D0EC70076961C /* CongratsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsView.swift; sourceTree = "<group>"; };
+		2E5BAA7B2C2D0F3C0076961C /* congratulations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = congratulations.json; sourceTree = "<group>"; };
 		2E9670B52C2ACECD00CF05EA /* ChallangeS3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS3.swift; sourceTree = "<group>"; };
 		2E9670B72C2ACF7C00CF05EA /* suara.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = suara.json; sourceTree = "<group>"; };
 		2E9670B92C2ACFB300CF05EA /* ChallangeS4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeS4.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				2EC310B42C27BA6A00598812 /* Marah.json */,
 				2EC310BA2C27CFEB00598812 /* cemas-2.json */,
 				2EC310B92C27CFEB00598812 /* nangis-2.json */,
+				2E5BAA7B2C2D0F3C0076961C /* congratulations.json */,
 				2EC310AF2C27A8F900598812 /* nangis.json */,
 			);
 			path = Assets;
@@ -215,6 +220,7 @@
 				2EC3109D2C2299B700598812 /* APIKey.swift */,
 				2EE2EB932C2A874300446295 /* Audio.swift */,
 				2EC310A12C2299F900598812 /* EmoResultView.swift */,
+				2E5BAA792C2D0EC70076961C /* CongratsView.swift */,
 				2EE2EB682C29076800446295 /* LoadingView.swift */,
 				2E9670C12C2ADB7700CF05EA /* sad */,
 				2EE2EB952C2A87FF00446295 /* breathing.mp3 */,
@@ -352,6 +358,7 @@
 				2EC310BB2C27CFEB00598812 /* nangis-2.json in Resources */,
 				2EC310B52C27BA6A00598812 /* cemas.json in Resources */,
 				2E9670B82C2ACF7C00CF05EA /* suara.json in Resources */,
+				2E5BAA7C2C2D0F3C0076961C /* congratulations.json in Resources */,
 				2EC310B02C27A8F900598812 /* nangis.json in Resources */,
 				2E9670BD2C2ACFEA00CF05EA /* bau.json in Resources */,
 			);
@@ -373,6 +380,7 @@
 				2E5BAA702C2BA20A0076961C /* JournalS5.swift in Sources */,
 				2E5BAA782C2BA2CB0076961C /* TemplateJournal.swift in Sources */,
 				2E5BAA6C2C2BA1FA0076961C /* JournalS3.swift in Sources */,
+				2E5BAA7A2C2D0EC70076961C /* CongratsView.swift in Sources */,
 				2EE2EB712C29462800446295 /* ChallangeS1View.swift in Sources */,
 				2ECAECCA2C1AE3EE0049BC6C /* ContentView.swift in Sources */,
 				2EE2EB652C284B2500446295 /* SharingView.swift in Sources */,
